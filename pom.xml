@@ -6,7 +6,7 @@
 
   <groupId>edu.ntnu.bidata.smarttv</groupId>
   <artifactId>smarttv-project</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>smarttv-project</name>
 
   <properties>
@@ -58,7 +58,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>edu.ntnu.bidata.smarttv.smarttvproject/edu.ntnu.bidata.smarttv.smarttvproject.HelloApplication</mainClass>
+              <mainClass>edu.ntnu.bidata.smarttv.smarttvproject.SmartRemoteGUI</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

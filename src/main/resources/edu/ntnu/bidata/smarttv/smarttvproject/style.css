@@ -1,0 +1,17 @@
+.root {
+    -fx-background-color: #lelele;
+    -fx-text-fill: white;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.button {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #5a5a5a;
+}

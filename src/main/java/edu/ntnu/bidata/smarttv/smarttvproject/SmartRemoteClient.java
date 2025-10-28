@@ -11,6 +11,8 @@ import java.net.*;
  * Allows users to enter remote control commands interactively, sends them to the server,
  * and prints the server's responses. Supports a help menu and clean disconnection.
  * </p>
+ *
+ * @author EyobMengsteab
  */
 class SmartRemoteClient {
 
