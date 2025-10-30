@@ -46,6 +46,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * </p>
  *
  * @author EyobMengsteab
+ * @version 2025-10-30
  */
 public class SmartTVServer {
 

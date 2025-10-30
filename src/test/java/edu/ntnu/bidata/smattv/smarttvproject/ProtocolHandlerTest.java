@@ -37,6 +37,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  * </ul>
  *
  * @author EyobMengsteab
+ * @version 2025-10-30
  */
 class ProtocolHandlerTest {
     private final SmartTV tv = new SmartTV(new String[]{"Channel1", "Channel2", "Channel3", "Channel4", "Channel5"});

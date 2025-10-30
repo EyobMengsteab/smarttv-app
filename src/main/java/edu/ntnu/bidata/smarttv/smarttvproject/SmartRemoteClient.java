@@ -13,6 +13,7 @@ import java.net.*;
  * </p>
  *
  * @author EyobMengsteab
+ * @version 2025-10-30
  */
 class SmartRemoteClient {
 

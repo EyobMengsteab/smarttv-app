@@ -27,6 +27,7 @@ package edu.ntnu.bidata.smarttv.smarttvproject;
  * </p>
  *
  * @author EyobMengsteab
+ * @version 2025-10-30
  */
 public class SmartTV {
     private boolean isOn = false;

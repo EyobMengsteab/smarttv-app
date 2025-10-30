@@ -42,6 +42,7 @@ import static org.junit.jupiter.api.Assertions.*;
  * </ul>
  *
  * @author EyobMengsteab
+ * @version 2025-10-30
  */
 class SmartTVTest {
 
