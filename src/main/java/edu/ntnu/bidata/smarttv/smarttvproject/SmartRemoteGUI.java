@@ -318,7 +318,7 @@ public class SmartRemoteGUI extends Application {
      * different types of server messages including:
      * <ul>
      *   <li>Channel list updates (comma-separated channel names)</li>
-     *   <li>Numeric responses for current channel or channel counts</li>
+     *   <li>Numeric responses for current channel</li>
      *   <li>State changes (ON/OFF responses)</li>
      *   <li>Server notifications for real-time updates</li>
      * </ul>
@@ -368,7 +368,6 @@ public class SmartRemoteGUI extends Application {
                         }
                         channelList.getItems().clear();
                         channelList.getItems().addAll(channels);
-                        log("Generated " + channelCount + " numbered channels");
                     } catch (NumberFormatException e) {
                         // Not a valid number, treat as current channel
                         channelLabel.setText("Channel: " + numberStr);
